@@ -1,0 +1,20 @@
+Title Proposal: Predicting Monthly Dengue Cases in Philippine Regions
+
+Problem
+Dengue keeps coming back in the Philippines, and cases usually rise during the rainy season. Health offices mostly look at past reports, so it's hard to know what to expect next month. This study looks at whether past dengue numbers and weather can be used to estimate next month's cases for a region.
+
+Main goal
+To find out how well prediction methods can estimate monthly dengue cases in Philippine regions using past case records and weather information.
+
+What we plan to do
+
+- Gather and clean dengue records from 2016 to 2020 and add monthly weather information for each region.
+- Look for patterns, such as cases rising after heavy rain or at certain times of the year.
+- Try several prediction methods, including a very simple one ("next month will be the same as this month"), and compare them.
+- Measure how far off each method's guesses are from the real numbers and pick the best one.
+
+What's included
+
+- Monthly dengue cases and deaths per region from a public Kaggle dataset
+- Monthly rainfall and temperature from a free weather source
+- Optionally, a second national dataset to double-check the results
