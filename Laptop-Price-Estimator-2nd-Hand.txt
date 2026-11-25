@@ -1,0 +1,22 @@
+Title Proposal: Estimating Fair Prices of Second-Hand Laptops in the Philippines Based on Price Drop
+
+Problem
+Many Filipinos buy and sell second-hand laptops online, but it's hard to tell whether an asking price is fair. A laptop loses value over time, and how much it loses depends on its age, condition, and specs. Sellers often just guess or copy other listings, so buyers can overpay and sellers can underprice. This study looks at whether a laptop's original price, age, and condition can be used to estimate a fair second-hand price range and to check whether an asking price is reasonable.
+
+Main goal
+To find out how well prediction methods can estimate how much value a laptop keeps after being used, and use this to give a fair price range and judge asking prices.
+
+What we plan to do
+
+- Gather a public dataset of laptop listings and collect a small set of Philippine second-hand listings, noting each laptop's original price, asking price, age, and condition.
+- Clean the data and work out what percent of the original price each used laptop keeps.
+Look at which factors affect this the most, such as age, condition, brand, and specs.
+- Try several prediction methods, including a very simple one ("every laptop keeps the same percent"), and compare them.
+- Use the best method to estimate a fair price range, and label an asking price as underpriced, fair, or overpriced depending on where it falls.
+Check how well the ranges and labels match real listings.
+
+What's included
+
+- A public Kaggle dataset of used and refurbished laptop listings
+- A small set of Philippine listings collected by the group, without seller names or contact details
+- Original price, asking price, age, condition, brand, and common specs
